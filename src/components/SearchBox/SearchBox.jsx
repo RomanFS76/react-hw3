@@ -1,9 +1,13 @@
-import React from 'react'
+import { Form, Formik } from "formik";
+import React from "react";
 
-const SearchBox = () => {
+const SearchBox = ({value}) => {
   return (
-    <div>SearchBox</div>
-  )
-}
+    <>
+      <p>Find contacts by name</p>
+      {/* <input type="text" value={value} onChange={}/> */}
+    </>
+  );
+};
 
-export default SearchBox
+export default SearchBox;

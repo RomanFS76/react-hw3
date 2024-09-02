@@ -1,10 +1,10 @@
 import React from "react";
 import Contact from "../Contact/Contact";
 
-const ContactList = () => {
+const ContactList = ({contacts}) => {
   return (
     <>
-      <Contact />
+      <Contact contacts={contacts}/>
     </>
   );
 };
